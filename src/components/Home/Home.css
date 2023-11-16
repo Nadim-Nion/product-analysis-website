@@ -1,0 +1,9 @@
+.details h1 {
+    color: black;
+    font-weight: bold;
+}
+
+.own-battery {
+    color: rgb(39, 39, 186);
+    font-weight: bold;
+}
