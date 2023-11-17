@@ -1,7 +1,10 @@
 /* Book Details  */
 .book-container {
-    display: grid;
-    grid-template-columns: 3fr 2fr;
+    /* display: grid;
+    grid-template-columns: 3fr 2fr; */
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
     margin-top: 30px;
 }
 
@@ -17,6 +20,7 @@
 
 .cover-image img {
     height: 550px;
+    /* height: 100%; */
 }
 
 /* Customer Opinion */
