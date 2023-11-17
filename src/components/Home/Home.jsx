@@ -25,7 +25,7 @@ const Home = () => {
 
             {/* Customer Opinion */}
             <div className='customer-review'>
-                <h2>Customer Review</h2>
+                <h2>Customer Reviews({books.length})</h2>
                 <div className='book-container'>
                     {
                         books.map(book => <Book
