@@ -25,6 +25,11 @@
     margin-top: 20px;
 }
 
+.customer-review h2 {
+    font-size: 40px;
+    color: black;
+}
+
 .reviews-btn {
     background-color: rgb(39, 39, 186);
     color: white;
