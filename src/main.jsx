@@ -12,12 +12,14 @@ import Reviews from './components/Reviews/Reviews.jsx';
 import Dashboard from './components/Dashboard/Dashboard.jsx';
 import Blogs from './components/Blogs/Blogs.jsx';
 import About from './components/About/About.jsx';
+import ErrorPage from './components/ErrorPage/ErrorPage.jsx';
 
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <Main></Main>,
+    errorElement: <ErrorPage></ErrorPage>,
     children: [
       {
         path: '/',
