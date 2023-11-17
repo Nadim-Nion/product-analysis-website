@@ -1,11 +1,12 @@
 import React from 'react';
 import './Home.css';
 import image from '../../images/Recharge-your-down-battery.jpg';
-import { useLoaderData } from 'react-router-dom';
+import { Link, useLoaderData } from 'react-router-dom';
 import Book from '../Book/Book';
 
 const Home = () => {
     const books = useLoaderData();
+    // const displayedBooks = books.slice(0, 3);
 
     return (
         <div>
@@ -33,7 +34,7 @@ const Home = () => {
                         ></Book>)
                     }
                 </div>
-                <button className='reviews-btn'>See All Reviews</button>
+                <Link to="/reviews"> <button className='reviews-btn'>See All Reviews</button></Link>
             </div>
         </div>
     );
