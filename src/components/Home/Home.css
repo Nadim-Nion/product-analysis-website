@@ -1,3 +1,4 @@
+/* Book Details  */
 .book-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -16,4 +17,25 @@
 
 .cover-image img {
     height: 550px;
+}
+
+/* Customer Opinion */
+.customer-review {
+    margin-top: 20px;
+}
+
+.book-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.reviews-btn {
+    background-color: rgb(39, 39, 186);
+    color: white;
+    margin-top: 5px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 10px;
+    /* border: none; */
+    font-weight: bold;
 }

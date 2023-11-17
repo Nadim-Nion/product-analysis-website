@@ -13,6 +13,7 @@ import Dashboard from './components/Dashboard/Dashboard.jsx';
 import Blogs from './components/Blogs/Blogs.jsx';
 import About from './components/About/About.jsx';
 import ErrorPage from './components/ErrorPage/ErrorPage.jsx';
+import BooksLoader from './loaders/BooksLoader.js';
 
 
 const router = createBrowserRouter([
@@ -23,7 +24,8 @@ const router = createBrowserRouter([
     children: [
       {
         path: '/',
-        element: <Home></Home>
+        element: <Home></Home>,
+        loader: BooksLoader
       },
       {
         path: 'reviews',

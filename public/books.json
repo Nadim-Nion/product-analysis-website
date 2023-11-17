@@ -1,0 +1,44 @@
+[
+    {
+        "_id": "65575d34f04672dce3d7e457",
+        "index": 0,
+        "rating": 2,
+        "name": "Lilian Lowery",
+        "comment": "Jhankar Mahbub's 'Recharge Your Own Battery' takes readers on an inspiring journey of self-discovery and personal growth. The author's insights resonate deeply, motivating us to take charge of our lives."
+    },
+    {
+        "_id": "65575d341fc095f8fbb7896c",
+        "index": 1,
+        "rating": 4,
+        "name": "Roseann Tyson",
+        "comment": "This book is a treasure trove of practical wisdom. Jhankar Mahbub provides actionable advice that is not only insightful but also applicable to our daily lives. A must-read for anyone seeking positive change."
+    },
+    {
+        "_id": "65575d34599ffa994fcceab1",
+        "index": 2,
+        "rating": 5,
+        "name": "Lilly Mathews",
+        "comment": "I appreciate the empowering perspective presented in 'Recharge Your Own Battery.' Jhankar Mahbub encourages readers to embrace challenges and view setbacks as opportunities for growth. A refreshing and motivating read!"
+    },
+    {
+        "_id": "65575d34004528a94f38fff9",
+        "index": 3,
+        "rating": 2,
+        "name": "Blackwell Freeman",
+        "comment": "Jhankar Mahbub's writing in 'Recharge Your Own Battery' offers clarity and guidance for those navigating the complexities of life. The book provides a roadmap to personal renewal and self-empowerment."
+    },
+    {
+        "_id": "65575d343000ff4b97ca3aa0",
+        "index": 4,
+        "rating": 1,
+        "name": "Beasley Clayton",
+        "comment": "An excellent motivational boost! 'Recharge Your Own Battery' by Jhankar Mahbub delivers a powerful message of resilience and self-care. The author's words are a source of encouragement for those facing life's challenges."
+    },
+    {
+        "_id": "65575d34475dc6b202a5a694",
+        "index": 5,
+        "rating": 0,
+        "name": "Sadie Nelson",
+        "comment": "'Recharge Your Own Battery' is filled with thought-provoking insights that prompt self-reflection. Jhankar Mahbub's words resonate, urging readers to take intentional steps toward a more fulfilling and balanced life."
+    }
+]
