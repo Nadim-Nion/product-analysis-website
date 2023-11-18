@@ -35,9 +35,9 @@ The website's aesthetics are crafted using Plain CSS, ensuring a clean and visua
 
 ## Live Website
 
-Netlify:  https://product-analysis-website-nion.netlify.app/ 
+Netlify: https://product-analysis-website-nion.netlify.app/ 
 
-Surge:
+Surge: https://odd-fold.surge.sh/ 
 
 
 ## Deployment
@@ -80,7 +80,7 @@ git push -u origin main
 
 ## Tech Stack
 
-**Client:** React, Plain CSS
+**Client:** React, React Router,  Plain CSS
 
 
 ## FAQ
