@@ -29,7 +29,8 @@ const router = createBrowserRouter([
       },
       {
         path: 'reviews',
-        element: <Reviews></Reviews>
+        element: <Reviews></Reviews>,
+        loader: BooksLoader
       },
       {
         path: 'dashboard',

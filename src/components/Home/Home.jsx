@@ -6,7 +6,7 @@ import Book from '../Book/Book';
 
 const Home = () => {
     const books = useLoaderData();
-    // const displayedBooks = books.slice(0, 3);
+    const displayedBooks = books.slice(0, 3);
 
     return (
         <div>
@@ -28,7 +28,7 @@ const Home = () => {
                 <h2>Customer Reviews({books.length})</h2>
                 <div className='book-container'>
                     {
-                        books.map(book => <Book
+                        displayedBooks.map(book => <Book
                             key={book.index}
                             book={book}
                         ></Book>)
